@@ -63,10 +63,15 @@ li a:hover::after{
 .aboutbox{
     border-style: solid;
     margin: auto;
-    min-height: 50vh;
-    height:auto;
+    height: auto;
     width: 100vh;
     background-color:#e0d9cb;
+}
+
+@media screen and (max-height: 800px){
+    .aboutbox{
+        width:auto;
+    }
 }
 
 section> img{
