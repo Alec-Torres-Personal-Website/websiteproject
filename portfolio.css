@@ -74,6 +74,12 @@ li a:hover::after{
     background-color:#e0d9cb;
 }
 
+@media screen and (max-height: 800px){
+    .aboutbox{
+        width:auto;
+    }
+}
+
 section > img{
     height: 200px;
     width: 200px;
